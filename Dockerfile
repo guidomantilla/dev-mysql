@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:8
 ENV MYSQL_DATABASE='sample' \
     MYSQL_ROOT_HOST='%' \
     MYSQL_ROOT_PASSWORD='r00t123!+' \
